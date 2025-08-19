@@ -1,0 +1,13 @@
+raid_devices:
+  - /dev/xvdb
+  - /dev/xvdc
+  - /dev/xvdd
+  - /dev/xvde
+raid_device: /dev/md0
+vg_name: vg_data
+lv_data_name: lv_data
+lv_data_size: 80%VG
+mount_point_data: /mnt/data
+lv_backup_name: lv_backup
+lv_backup_size: 20%VG
+mount_point_backup: /mnt/backup
